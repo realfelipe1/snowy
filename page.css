@@ -1,0 +1,81 @@
+
+
+html{
+  background: 
+  linear-gradient(
+    rgba(245, 242, 242, 0.5),
+    rgba(245, 242, 242, 0.5)),
+  url(snowma.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  overflow: hidden;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+h1{
+  font-family: 'Raleway';
+}
+
+a{
+  background: #09aeff;
+border-radius: 11px;
+padding: 20px 45px;
+color: black;
+display: inline-block;
+font: normal bold 28px/1 "Calibri", sans-serif;
+text-align: center;
+width: 200px;
+/* height:200px; */
+text-decoration: none;
+}
+
+/*  */
+
+::-webkit-scrollbar {
+  width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+  background: rgb(65, 65, 65); 
+  border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+  background: rgb(196, 196, 196); 
+  }
+  /*** Works on common browsers ***/
+  ::selection {
+      background-color: #15b2e2;
+      color: rgb(0, 0, 0);
+  }
+  
+  /*** Mozilla based browsers ***/
+  ::-moz-selection {
+    background-color: #15b2e2;
+    color: rgb(0, 0, 0);
+  }
+  
+  /***For Other Browsers ***/
+  ::-o-selection {
+    background-color: #15b2e2;
+    color: rgb(0, 0, 0);
+  }
+  
+  ::-ms-selection {
+    background-color: #15b2e2;
+    color: rgb(0, 0, 0);
+  }
+  
+  /*** For Webkit ***/
+  ::-webkit-selection {
+    background-color: #15b2e2;
+    color: rgb(0, 0, 0);
+  }
